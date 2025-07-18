@@ -1,0 +1,2 @@
+ALTER TABLE topicos
+MODIFY COLUMN curso_id BIGINT;
