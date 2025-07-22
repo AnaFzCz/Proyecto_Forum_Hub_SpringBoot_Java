@@ -14,7 +14,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.Optional;
 
@@ -34,28 +36,35 @@ public class TopicoController {
 
     @PostMapping
     @Transactional
-    public void cadastrar(@RequestBody @Valid DadosCadastroTopico dados) {
+
+
+    public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroTopico dados, UriComponentsBuilder uriBuilder) {
         Usuario usuario = usuarioRepository.findById(1L)
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
         Curso curso = cursoRepository.findByNome(dados.nomeCurso());
-        repository.save(new Topico(dados, curso, usuario));
+        var topico = new Topico(dados, curso, usuario);
+        repository.save(topico);
+
+        var uri = uriBuilder.path("/medicos/{id}").buildAndExpand(topico.getId()).toUri();
+        return ResponseEntity.created(uri).body(new DadosDetalhamentoTopico(topico));
     }
 
     @GetMapping
-    public Page<DadosListagemTopico> listar(@PageableDefault(size = 10, sort = {"id"}) Pageable paginacao) {
-        return repository.findAll(paginacao).map(DadosListagemTopico::new);
+    public ResponseEntity<Page<DadosListagemTopico>> listar(@PageableDefault(size = 10, sort = {"id"}) Pageable paginacao) {
+        var page = repository.findAll(paginacao).map(DadosListagemTopico::new);
+        return ResponseEntity.ok(page);
     }
 
     @GetMapping("/{id}")
 
-    public DadosDetalhamentoTopico detalharTopico(@PathVariable Long id) {
+    public ResponseEntity<DadosDetalhamentoTopico> detalharTopico(@PathVariable Long id) {
         var topico = repository.getReferenceById(id);
-        return new DadosDetalhamentoTopico(topico);
+        return ResponseEntity.ok(new DadosDetalhamentoTopico(topico));
     }
 
     @PutMapping
     @Transactional
-    public void atualizar(@RequestBody @Valid DadosAtualicacaoTopico dados) {
+    public ResponseEntity atualizar(@RequestBody @Valid DadosAtualicacaoTopico dados) {
         Topico topico = repository.findById(dados.id())
                 .orElseThrow(() -> new RuntimeException("topico não encontrado"));
         ;
@@ -68,15 +77,16 @@ public class TopicoController {
 
         topico.atualizarInformacao(dados, resposta);
 
+        return ResponseEntity.ok(new DadosDetalhamentoTopicoRespostas(topico));
+
     }
+
 
     @DeleteMapping("/{id}")
     @Transactional
-    public void delete(@PathVariable Long id) {
+    public ResponseEntity delete(@PathVariable Long id) {
         repository.deleteById(id);
-
-
+        return ResponseEntity.noContent().build();
     }
-
 
 }

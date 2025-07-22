@@ -26,7 +26,7 @@ public class Resposta {
     private String mensagem;
 
     @Column(name = "dataCriacao")
-    private LocalDateTime dataCriacao;
+    private LocalDateTime data_criacao;
 
     private String solucao;
 
@@ -40,7 +40,7 @@ public class Resposta {
 
     public Resposta(DadosAtualicacaoTopico dados, Topico topicoS, Usuario usuarioS) {
         this.mensagem = dados.mensagem();
-        this.dataCriacao = LocalDateTime.now();
+        this.data_criacao = LocalDateTime.now();
         this.solucao = dados.titulo();
         this.usuario = usuarioS;
         this.topico = topicoS;
