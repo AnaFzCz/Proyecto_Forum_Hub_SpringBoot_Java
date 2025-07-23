@@ -7,11 +7,13 @@ public record DadosListagemResposta(
         String mensagem,
         LocalDateTime data_criacao,
         String solucao,
-        Long topico_id
+        Long topico_id,
+        String usuario
+
 ) {
 
     public DadosListagemResposta(Resposta resposta) {
-        this(resposta.getMensagem(), resposta.getData_criacao(), resposta.getSolucao(), resposta.getTopico().getId());
+        this(resposta.getMensagem(), resposta.getData_criacao(), resposta.getSolucao(), resposta.getTopico().getId(), resposta.getUsuario().getEmail());
 
     }
 
