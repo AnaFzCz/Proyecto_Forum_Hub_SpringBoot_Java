@@ -78,19 +78,29 @@
 
 <p>La autenticación se realiza mediante JWT (JSON Web Tokens). El token es generado al iniciar sesión y debe ser enviado en el header Authorization de cada petición protegida, en el formato:</p>
 
- :closed_lock_with_key: Authorization: Bearer {token}
+
+
+```
+ :closed_lock_with_key: 
+ Authorization: Bearer {token}
+
+```
+
+
 
 
 ## Estructura del proyecto
 
+Este proyecto está organizado siguiendo principios de separación de responsabilidades, lo que facilita el mantenimiento y la escalabilidad. A continuación, se describe la estructura de carpetas:
+
 com.forumhub.ForumHub
-│
-├── controller        # Endpoints de la API
-├── domain            # Entidades y clases de modelo (DTOs)
-├── repository      # Interfaces de acceso a datos
-└── infrastructure    # Validaciones, interceptores, etc.
-├── security        # Lógica de negocio
-├── exception       # Configuraciones de seguridad y sistema
+src/
+├── controller        # Define los endpoints de la API REST
+├── domain            # Contiene las entidades y DTOs (modelos de negocio)
+├── repository        # Interfaces para acceder a la base de datos (JPA)
+└── infrastructure    # Componentes técnicos de soporte
+    ├── security      # Configuración de seguridad y autenticación (JWT)
+    ├── exception     # Manejo de errores y respuestas estándar
 
 
 
