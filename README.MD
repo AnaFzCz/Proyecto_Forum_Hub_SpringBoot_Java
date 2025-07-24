@@ -110,11 +110,22 @@ Una vez que la aplicación está en ejecución, puedes acceder a la documentaci�
 
 ## Resultados en Insomnia
 
-![API running]()
+:bookmark_tabs: LISTADO DE SOLICITUDES
+
 <p align="center">
   <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="300"/>
 </p>
 
+:open_file_folder:
+<p align="center">
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="300"/>
+</p>
+
+
+:page_facing_up: 
+<p align="center">
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="300"/>
+</p>
 
 ## Developer del Proyecto
 
