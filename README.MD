@@ -78,12 +78,10 @@
 
 <p>La autenticación se realiza mediante JWT (JSON Web Tokens). El token es generado al iniciar sesión y debe ser enviado en el header Authorization de cada petición protegida, en el formato:</p>
 
-
+:closed_lock_with_key:
 
 ```
- :closed_lock_with_key: 
- Authorization: Bearer {token}
-
+  Authorization: Bearer {token}
 ```
 
 
