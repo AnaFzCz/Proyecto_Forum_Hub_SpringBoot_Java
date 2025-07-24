@@ -95,12 +95,12 @@ Este proyecto está organizado siguiendo principios de separación de responsabi
 
 com.forumhub.ForumHub
 src/
-├── controller        # Define los endpoints de la API REST
-├── domain            # Contiene las entidades y DTOs (modelos de negocio)
-├── repository        # Interfaces para acceder a la base de datos (JPA)
-└── infrastructure    # Componentes técnicos de soporte
-    ├── security      # Configuración de seguridad y autenticación (JWT)
-    ├── exception     # Manejo de errores y respuestas estándar
+├── controller        # Define los endpoints de la API REST<br>
+├── domain            # Contiene las entidades y DTOs (modelos de negocio)<br>
+├── repository        # Interfaces para acceder a la base de datos (JPA)<br>
+└── infrastructure    # Componentes técnicos de soporte<br>
+    ├── security      # Configuración de seguridad y autenticación (JWT)<br>
+    ├── exception     # Manejo de errores y respuestas estándar<br>
 
 
 
