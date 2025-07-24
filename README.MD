@@ -11,6 +11,8 @@
 - [Seguridad](#seguridad)
 - [Developer del Proyecto](#developer-del-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
+- [Documentación de la API - Swagger](#Documentación-de-la-API---Swagger)
+- [Resultados en Insomnia](#resultados-en-insomnia)
 
   
 
@@ -47,23 +49,23 @@
 ## Tecnologias utilizadas
 
 
-Spring Boot – Framework principal para desarrollo de la API.
+:heavy_check_mark: Spring Boot – Framework principal para desarrollo de la API.
 
-Java 24 – Versión LTS del lenguaje de programación.
+:heavy_check_mark: Java 24 – Versión LTS del lenguaje de programación.
 
-Lombok – Para generación automática de código repetitivo mediante anotaciones.
+:heavy_check_mark: Lombok – Para generación automática de código repetitivo mediante anotaciones.
 
-MySQL – Base de datos relacional utilizada para persistencia de datos.
+:heavy_check_mark: MySQL – Base de datos relacional utilizada para persistencia de datos.
 
-Flyway – Herramienta para control de versiones y migraciones de la base de datos.
+:heavy_check_mark: Flyway – Herramienta para control de versiones y migraciones de la base de datos.
 
-JPA (Java Persistence API) – Especificación para mapeo objeto-relacional.
+:heavy_check_mark: JPA (Java Persistence API) – Especificación para mapeo objeto-relacional.
 
-Hibernate – Implementación de JPA utilizada en el proyecto.
+:heavy_check_mark: Hibernate – Implementación de JPA utilizada en el proyecto.
 
-Maven – Gestor de dependencias y herramienta de construcción del proyecto.
+:heavy_check_mark: Maven – Gestor de dependencias y herramienta de construcción del proyecto.
 
-Insomnia – Herramienta para realizar pruebas y simular solicitudes HTTP a la API.
+:heavy_check_mark: Insomnia – Herramienta para realizar pruebas y simular solicitudes HTTP a la API.
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original-wordmark.svg" width="40" height="40"/>
           
@@ -73,9 +75,9 @@ Insomnia – Herramienta para realizar pruebas y simular solicitudes HTTP a la A
 ## Seguridad
 
 
-La autenticación se realiza mediante JWT (JSON Web Tokens). El token es generado al iniciar sesión y debe ser enviado en el header Authorization de cada petición protegida, en el formato:
+<p>La autenticación se realiza mediante JWT (JSON Web Tokens). El token es generado al iniciar sesión y debe ser enviado en el header Authorization de cada petición protegida, en el formato:</p>
 
-Authorization: Bearer {token}
+ :closed_lock_with_key: Authorization: Bearer {token}
 
 
 ## Estructura del proyecto
@@ -92,9 +94,20 @@ com.forumhub.ForumHub
 
 
 
+## Documentación de la API - Swagger
+
+Esta API está documentada  :books: utilizando Swagger, una herramienta que permite visualizar y probar los endpoints de forma interactiva a través de una interfaz web.
+
+* Acceso a Swagger UI
+
+Una vez que la aplicación está en ejecución, puedes acceder a la documentación en el siguiente enlace:
+
+:link: http://localhost:8080/swagger-ui/index.html
 
 
+## Resultados en Insomnia
 
+![API running](https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true)
 
 ## Developer del Proyecto
 
