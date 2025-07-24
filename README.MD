@@ -1,4 +1,4 @@
-<h1>PROYECTO API FORUM-HUB</h1>
+<h1 text-align= "center">PROYECTO API FORUM-HUB</h1>
 
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
  
@@ -13,6 +13,7 @@
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Documentación de la API - Swagger](#Documentación-de-la-API---Swagger)
 - [Resultados en Insomnia](#resultados-en-insomnia)
+
 
   
 
@@ -105,9 +106,15 @@ Una vez que la aplicación está en ejecución, puedes acceder a la documentaci�
 :link: http://localhost:8080/swagger-ui/index.html
 
 
+
+
 ## Resultados en Insomnia
 
-![API running](https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true)
+![API running]()
+<p align="center">
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="300"/>
+</p>
+
 
 ## Developer del Proyecto
 
