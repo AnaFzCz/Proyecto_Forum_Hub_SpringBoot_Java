@@ -9,6 +9,7 @@ import com.forumhub.ForumHub.domain.topico.*;
 import com.forumhub.ForumHub.domain.usuario.Usuario;
 import com.forumhub.ForumHub.domain.usuario.UsuarioRepository;
 import com.forumhub.ForumHub.infraestructura.security.TokenService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/topicos")
+@SecurityRequirement(name = "bearer-key")
+
 public class TopicoController {
 
 
@@ -41,7 +44,6 @@ public class TopicoController {
 
     @PostMapping
     @Transactional
-
 
 
     public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroTopico dados, UriComponentsBuilder uriBuilder, Authentication authentication) {

@@ -1,6 +1,7 @@
 package com.forumhub.ForumHub.controller;
 
 
+import com.forumhub.ForumHub.domain.topico.DadosDetalhamentoTopico;
 import com.forumhub.ForumHub.domain.usuario.DadosCadastroUsuario;
 import com.forumhub.ForumHub.domain.usuario.DadosListagemUsuario;
 import com.forumhub.ForumHub.domain.usuario.Usuario;
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -27,11 +29,11 @@ public class UsuarioController {
     }
 
     @GetMapping
-    public Page<DadosListagemUsuario> listar(@PageableDefault(size = 10, sort = {"nome"}) Pageable paginacao) {
-        return repository.findAll(paginacao).map(DadosListagemUsuario::new);
+    public ResponseEntity<Page<DadosListagemUsuario>> listar(@PageableDefault(size = 10, sort = {"nome"}) Pageable paginacao) {
+        var page = repository.findAll(paginacao).map(DadosListagemUsuario::new);
+        return ResponseEntity.ok(page);
+
     }
-
-
 
 
 }
