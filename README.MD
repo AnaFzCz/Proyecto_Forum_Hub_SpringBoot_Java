@@ -93,8 +93,8 @@
 
 Este proyecto está organizado siguiendo principios de separación de responsabilidades, lo que facilita el mantenimiento y la escalabilidad. A continuación, se describe la estructura de carpetas:
 
-com.forumhub.ForumHub
-src/
+com.forumhub.ForumHub<br>
+src/<br>
 ├── controller        # Define los endpoints de la API REST<br>
 ├── domain            # Contiene las entidades y DTOs (modelos de negocio)<br>
 ├── repository        # Interfaces para acceder a la base de datos (JPA)<br>
@@ -105,13 +105,12 @@ src/
 
 
 
+
 ## Documentación de la API - Swagger
 
 Esta API está documentada  :books: utilizando Swagger, una herramienta que permite visualizar y probar los endpoints de forma interactiva a través de una interfaz web.
 
-* Acceso a Swagger UI
-
-Una vez que la aplicación está en ejecución, puedes acceder a la documentación en el siguiente enlace:
+Acceso a Swagger UI: Una vez que la aplicación está en ejecución, puedes acceder a la documentación en el siguiente enlace:
 
 :link: http://localhost:8080/swagger-ui/index.html
 
