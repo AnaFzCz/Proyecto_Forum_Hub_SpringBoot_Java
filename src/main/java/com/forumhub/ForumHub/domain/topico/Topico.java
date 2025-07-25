@@ -42,7 +42,7 @@ public class Topico {
 
     @OneToMany(mappedBy = "topico", cascade = CascadeType.ALL)
     @Column(name = "resposta_id")
-    private List<Resposta> resposta = new ArrayList<>();
+    private List<Resposta> resposta;
 
     public Topico(DadosCadastroTopico dados, Curso cursoS, Usuario usuarioS) {
         this.titulo = dados.titulo();

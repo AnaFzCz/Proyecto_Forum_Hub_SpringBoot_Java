@@ -34,6 +34,7 @@ public class Resposta {
     @JoinColumn(name = "usuario_id")
     private Usuario usuario;
 
+    @Setter
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "topico_id")
     private Topico topico;
