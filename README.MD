@@ -9,10 +9,11 @@
 - [Funcionalidad y Demostración de la aplicación](#funcionalidad-y-demostración-de-la-aplicación)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Seguridad](#seguridad)
-- [Developer del Proyecto](#developer-del-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
+- [Estructura de Base de Datos](#Estructura-de-Base-de-datos)
 - [Documentación de la API - Swagger](#Documentación-de-la-API---Swagger)
 - [Resultados en Insomnia](#resultados-en-insomnia)
+- [Developer del Proyecto](#developer-del-proyecto)
 
 
   
@@ -91,17 +92,20 @@
 
 Este proyecto está organizado siguiendo principios de separación de responsabilidades, lo que facilita el mantenimiento y la escalabilidad. A continuación, se describe la estructura de carpetas:
 
-com.forumhub.ForumHub<br>
-src/<br>
-├── controller        # Define los endpoints de la API REST<br>
-├── domain            # Contiene las entidades y DTOs (modelos de negocio)<br>
-├── repository        # Interfaces para acceder a la base de datos (JPA)<br>
-└── infrastructure    # Componentes técnicos de soporte<br>
-    ├── security      # Configuración de seguridad y autenticación (JWT)<br>
-    ├── exception     # Manejo de errores y respuestas estándar<br>
+
+<p align="center">
+  <img src=https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/estructura_forum%20-hub.png" alt="12"/>
+</p>
 
 
+## Estructura de Base de datos
 
+Este proyecto se encuentra conectado a la Base de Datos en MySQL.
+
+
+<p align="center">
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Base%20de%20datos%20Forum-Hub.png" alt="0"0"/>
+</p>
 
 
 ## Documentación de la API - Swagger
