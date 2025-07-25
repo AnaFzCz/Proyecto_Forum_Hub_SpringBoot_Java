@@ -127,7 +127,7 @@ Acceso a Swagger UI: Una vez que la aplicación está en ejecución, puedes acce
 :door: LOGIN EXITOSO - RETORNA TOKEN
 
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Login%20-%20Ingreso%20exitoso.jpg?raw=true" alt="2" width="500"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Login%20-%20Ingreso%20exitoso.jpg" alt="2" width="500"/>
 </p>
 
 
