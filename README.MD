@@ -120,61 +120,61 @@ Acceso a Swagger UI: Una vez que la aplicación está en ejecución, puedes acce
 :bookmark_tabs: LISTADO DE SOLICITUDES
 
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Estructura%20de%20request.JPG?raw=true" alt="Login exitoso" width="500"/>
 </p>
 
 
 :door: LOGIN EXITOSO - RETORNA TOKEN
 
 <p align="center">
-  <img src=https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Login%20-%20Ingreso%20exitoso.jpg" alt="Login exitoso" width="300"/>
+  <img src=https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Login%20-%20Ingreso%20exitoso.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :woman: REGISTRO DE USUARIO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Registro%20de%20usuario.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Registro%20de%20usuario.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :woman: :man: LISTADO DE USUARIOS
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Listado%20de%20usuarios.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Listado%20de%20usuarios.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :page_facing_up: REGISTRO DE CURSO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Curso%20Registro%20exitoso.JPG" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Curso%20Registro%20exitoso.JPG" alt="Login exitoso" width="500"/>
 </p>
 
 
 :page_facing_up: LISTADO DE CURSOS
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Curso%20Listado.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Curso%20Listado.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 :page_facing_up: REGISTRO TOPICO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Registro%20Topico.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Registro%20Topico.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :page_facing_up: LISTADO DE TODOS LOS TÓPICOS
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Listado%20de%20todos%20los%20topicos.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Listado%20de%20todos%20los%20topicos.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :page_facing_up: DETALLE DE TÓPICO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Detalle%20de%20topico.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Detalle%20de%20topico.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
 :page_facing_up: ELIMINACIÓN DE TÓPICO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Eliminaci%C3%B3n%20de%20t%C3%B3pico.jpg" alt="Login exitoso" width="300"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Eliminaci%C3%B3n%20de%20t%C3%B3pico.jpg" alt="Login exitoso" width="500"/>
 </p>
 
 
