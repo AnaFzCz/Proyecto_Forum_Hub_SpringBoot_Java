@@ -91,7 +91,7 @@ Este proyecto está organizado siguiendo principios de separación de responsabi
 
 
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/estructura_forum%20-hub.png" alt="12"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/estructura_forum%20-hub.png" alt="12" width="500"/>
 </p>
 
 
@@ -182,7 +182,7 @@ Acceso a Swagger UI: Una vez que la aplicación está en ejecución, puedes acce
 
 :page_facing_up: ELIMINACIÓN DE TÓPICO
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Eliminaci%C3%B3n%20de%20t%C3%B3pico.jpg" alt="10" width="500"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Eliminaci%C3%B3n%20de%20t%C3%B3pico.jpg" alt="10" width="600"/>
 </p>
 
 
