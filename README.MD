@@ -43,9 +43,6 @@
 
 `Funcionalidad 5 `: Control de acceso vía token JWT.
 
-`Funcionalidad 6 `: Validación y manejo de errores.
-
-
 
 
 ## Tecnologias utilizadas
@@ -104,7 +101,7 @@ Este proyecto se encuentra conectado a la Base de Datos en MySQL.
 
 
 <p align="center">
-  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Base%20de%20datos%20Forum-Hub.png" alt="0"0"/>
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Base%20de%20datos%20Forum-Hub.png" alt="14"/>
 </p>
 
 
@@ -116,7 +113,9 @@ Acceso a Swagger UI: Una vez que la aplicación está en ejecución, puedes acce
 
 :link: http://localhost:8080/swagger-ui/index.html
 
-
+<p align="center">
+  <img src="https://github.com/AnaFzCz/Proyecto_Forum_Hub_SpringBoot_Java/blob/main/src/assets/Swagger-ui.jpg" alt="13" width="500"/>
+</p>
 
 
 ## Resultados en Insomnia
